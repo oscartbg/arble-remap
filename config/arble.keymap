@@ -20,15 +20,15 @@
  &kp PAGE_UP    &kp TAB      &kp Q   &kp W        &kp E     &kp R      &kp T   &kp Y   &kp U      &kp I    &kp O     &kp P   &kp LBKT   &kp RBKT  &kp BSLH  
    &kp PG_DN   &kp CAPS      &kp A   &kp S        &kp D     &kp F      &kp G   &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT    &kp RET
    &kp LSHFT      &kp Z      &kp X   &kp C        &kp V     &kp B      &kp B   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT      &mo 2
-    &kp LGUI  &kp LCTRL  &kp SPACE   &mo 1  &lt 1 SPACE  &kp RALT  &kp RCTRL
+    &kp LCTRL  &kp LALT  &kp SPACE   &mo 1  &lt 1 SPACE  &kp LGUI  &kp RCTRL
             >;
         };
 
         ARROW {
             bindings = <
  &bt BT_SEL 0    &kp F1    &kp F2    &kp F3     &kp F4  &kp F5  &kp F6    &kp F7    &kp F8  &kp F9    &kp F10  &kp F11  &kp F12           &trans  &trans
- &kp PAGE_UP  &kp CAPS    &trans    &kp UP     &trans  &trans  &trans    &trans    &trans  &trans     &trans   &trans   &trans           &trans  &trans  
- &kp PG_DN    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &trans   &trans  &rgb_ug RGB_TOG
+ &kp C_VOL_UP  &kp CAPS    &trans    &kp UP     &trans  &trans  &trans    &trans    &trans  &trans     &trans   &trans   &trans           &trans  &trans  
+ &kp C_VOL_DN    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &trans   &trans  &rgb_ug RGB_TOG
        &trans    &trans    &trans    &trans     &trans  &trans  &trans    &trans    &trans  &trans     &trans   &trans   &trans           &trans
        &trans    &trans    &trans    &trans     &trans  &trans  &trans
             >;
